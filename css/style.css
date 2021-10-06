@@ -1,0 +1,50 @@
+/* commons */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+
+header{
+    height: 100px;
+}
+
+/* jumbo */
+
+#jumbotron{
+    height: 400px;
+}
+
+/* debug */
+
+.debug header{
+    background-color: blue;
+}
+
+.debug #jumbotron{
+    background-color: yellow;
+}
+
+.debug main{
+    height: 1000px;
+    background-color: green;
+}
+
+.debug footer{
+    background-color: hotpink;
+    height: 400px;
+}
+
+.debug .container{
+    background-color: indigo;
+    height: 100%;
+}
