@@ -103,9 +103,28 @@ nav li a:hover{
 #jumbotron p{
     line-height: 1.4;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
+/* bottoni jumbo */
+
+.btnj{
+    font-size: 14px;
+    padding: 12px 18px;
+    border-radius: 25px;
+}
+
+/* colori */
+
+.w{
+    background-color: white;
+    color: black;
+}
+
+.b{
+    background-color: #23272A;
+    color: white;
+}
 /* debug */
 
 .debug #jumbotron{
