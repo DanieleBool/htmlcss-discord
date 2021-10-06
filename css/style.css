@@ -12,10 +12,67 @@
     margin: 0 auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* header */
 
 header{
-    height: 100px;
+    background-color: #3161E0;
+    height: 80px;
+    line-height: 80px; /* viene ereditato */
+    vertical-align: middle; /*  non servirebbe */
+}
+
+#logo, #accedi{
+    width: 25%;
+    float: left;
+
+}
+
+nav{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    margin: 0 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+#accedi{
+    width: 25%;
+    text-align: right;
+}
+
+/* bottone */
+
+#accedi a{
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
 
 /* jumbo */
@@ -25,10 +82,6 @@ header{
 }
 
 /* debug */
-
-.debug header{
-    background-color: blue;
-}
 
 .debug #jumbotron{
     background-color: yellow;
@@ -45,6 +98,6 @@ header{
 }
 
 .debug .container{
-    background-color: indigo;
+    background-color: ;
     height: 100%;
 }
