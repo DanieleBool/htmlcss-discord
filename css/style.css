@@ -112,9 +112,11 @@ nav li a:hover{
     font-size: 14px;
     padding: 12px 18px;
     border-radius: 25px;
+    display: inline-block; 
+    margin-top: 30px;   
 }
 
-.btnj, .b{
+.btnj.b{
     margin-left: 10px;
 }
 
@@ -145,13 +147,11 @@ main .container{
 .lato{
     float: left;
     width: 50%;
-    display: inline-block;
 }
 
 .write{
     float: left;
     width: 50%;
-    display: inline-block;
     padding: 3% 15% 0 15%;
     line-height: 1.4;
 }
@@ -161,8 +161,8 @@ main .container{
     width: 60%;
 }
 
-.btnj.v{
-    margin-top: 20px;
+.ultimo h2:last-child{
+    margin-bottom: 500px;
 }
 
 
